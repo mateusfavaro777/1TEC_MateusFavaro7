@@ -1,14 +1,14 @@
 body{
 background-color: black;
-color:green;
-font-family: "Manufacturing Consent", system-ui;
+color:red;
+font-family: "Libertinus Serif", serif;
 
 }
 
 header{
-    font-family: "Manufacturing Consent", system-ui;
+    font-family: "Libertinus Serif", serif;
     font-size : 75px ;
-    border-bottom: double 5px green;
+    border-bottom: double 5px red;
     padding: 50px;
     text-align: center;
 }
@@ -17,4 +17,18 @@ h1{
 }
 p{
     font-size : 20px
+}
+section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 2, 2);
+    color: red
+}
+
+.vampiro{
+    margin-right: 5%;
+}
+img{
+    width: 300px;
+    
 }
